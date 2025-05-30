@@ -12,7 +12,7 @@ _Exemplo de resposta: Cada membro ficou responsável por um tipo de diagrama, co
 ---
 
 ## Desempenho Individual 📈
-**2. O que você (ou cada integrante) considera que mais contribuiu no projeto?**
+**2. O que você considera que mais contribuiu no projeto?**
 > Aqui cada usuário deverá realizar sua descrição e realizar o envio com o seu nome para ficar registrado no github
 
 - Nome 1: 
