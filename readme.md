@@ -1,14 +1,15 @@
-# Nome do Sistema
+# SyncPlayers
 
 ## 💡 Descrição Geral
-Breve descrição do sistema apresentado no pitch. Indique o problema que resolve, público-alvo e principais funcionalidades.
+SyncPlayers é uma solução voltada para jogadores que enfrentam dificuldades em encontrar outros gamers com interesses semelhantes, horários compatíveis e preferência pelos mesmos jogos.
 
 ## 📌 Escopo Geral
 Liste de forma objetiva os principais módulos/funções definidos no início do projeto:
 
-- [ ] Funcionalidade 1
-- [ ] Funcionalidade 2
-- [ ] ...
+- [ ] Chat entre jogadores
+- [ ] Envio de convites para partidas
+- [ ] Sistema de busca por jogadores compatíveis
+- [ ] Sugestão de amigos conforme estilo de jogo e plataforma
 
 ## 📁 Estrutura dos Arquivos
 - [descricao/](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
@@ -20,6 +21,8 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 ## 🛠️ Tecnologias e Ferramentas
 Liste aqui (se aplicável) as linguagens ou frameworks pensados para a implementação, bem como ferramentas de modelagem.
 
+-lucid.app
+
 ## 👥 Integrantes
-- Nome 1 
+- Stanly almeida do carmo
 - Nome 2 
