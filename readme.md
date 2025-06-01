@@ -4,7 +4,7 @@
 SyncPlayers é uma solução voltada para jogadores que enfrentam dificuldades em encontrar outros gamers com interesses semelhantes, horários compatíveis e preferência pelos mesmos jogos.
 
 ## 📌 Escopo Geral
-Liste de forma objetiva os principais módulos/funções definidos no início do projeto:
+Principais módulos/funções definidos para o projeto:
 
 - [ ] Chat entre jogadores
 - [ ] Envio de convites para partidas
@@ -19,10 +19,12 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 - [requisitos.md](./requisitos.md): Detalhe dos requisitos dos sistema.
 
 ## 🛠️ Tecnologias e Ferramentas
-Liste aqui (se aplicável) as linguagens ou frameworks pensados para a implementação, bem como ferramentas de modelagem.
+As linguagens ou frameworks pensados para a implementação, bem como ferramentas de modelagem, estão listadas abaixo:
 
 -lucid.app
+-staruml.io
+-plantuml.com
 
 ## 👥 Integrantes
 - Stanly almeida do carmo
-- Nome 2 
+- Jadson Alves do Nascimento 
