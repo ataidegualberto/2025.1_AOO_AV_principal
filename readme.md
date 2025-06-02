@@ -20,10 +20,11 @@ Principais módulos/funções definidos para o projeto:
 
 ## 🛠️ Tecnologias e Ferramentas
 
--lucid.app
+-lucidchart.com
 -staruml.io
 -plantuml.com
 
 ## 👥 Integrantes
 - Stanly almeida do carmo
-- Jadson Alves do Nascimento 
+- Jadson Alves do Nascimento
+- José Anderson de Almeida Silva
