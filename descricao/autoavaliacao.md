@@ -15,7 +15,7 @@ _Exemplo de resposta: Cada membro ficou responsável por um tipo de diagrama, co
 **2. O que você considera que mais contribuiu no projeto?**
 > Aqui cada usuário deverá realizar sua descrição e realizar o envio com o seu nome para ficar registrado no github
 
-- Nome 1: 
+- Nome 1: José Anderson de Almeida Silva, A minha principal contribuição foi a elaboração do diagrama de caso de uso inicial do sistema, com base nos requisitos funcionais, não funcionais e regras de negócio, previamente definidos pelo grupo em conjunto. Esse diagrama foi essencial para representar visualmente as funcionalidades do sistema e a interação dos usuários com ele, servindo como guia para as próximas etapas do desenvolvimento.
 - Nome 2: 
 - Nome 3: 
 - Nome 4: 
