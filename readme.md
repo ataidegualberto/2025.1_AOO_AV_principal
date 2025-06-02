@@ -19,7 +19,6 @@ Principais módulos/funções definidos para o projeto:
 - [requisitos.md](./requisitos.md): Detalhe dos requisitos dos sistema.
 
 ## 🛠️ Tecnologias e Ferramentas
-As linguagens ou frameworks pensados para a implementação, bem como ferramentas de modelagem, estão listadas abaixo:
 
 -lucid.app
 -staruml.io
