@@ -12,11 +12,11 @@ Principais módulos/funções definidos para o projeto:
 - [ ] Sugestão de amigos conforme estilo de jogo e plataforma
 
 ## 📁 Estrutura dos Arquivos
-- [descricao/](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
-- [requisitos.md](requisitos.md): Lista de requisitos funcionais e não funcionais.
-- [modelos/](./modelos/readme.md): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
-- [autoavaliacao.md](./descricao/autoavaliacao.md): Reflexão individual ou do grupo sobre o projeto.
-- [requisitos.md](./requisitos.md): Detalhe dos requisitos dos sistema.
+- [Descricao](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
+- [Requisitos](requisitos.md): Lista de requisitos funcionais e não funcionais.
+- [Modelos/](./modelos/readme.md): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
+- [Autoavaliacao](./descricao/autoavaliacao.md): Reflexão individual ou do grupo sobre o projeto.
+- [Requisitos](./requisitos.md): Detalhe dos requisitos dos sistema.
 
 ## 🛠️ Tecnologias e Ferramentas
 
@@ -25,6 +25,8 @@ Principais módulos/funções definidos para o projeto:
 - plantuml.com
 
 ## 👥 Integrantes
-- Stanly almeida do carmo
+- Stanly Almeida do Carmo
 - Jadson Alves do Nascimento
 - José Anderson de Almeida Silva
+- 
+- 
