@@ -1,6 +1,6 @@
 # 📊 Diagramas UML do Sistema
 
-## Visão Geral do Sistema
+> Visão Geral
 
 ## 🔹 Diagrama de Casos de Uso
 
