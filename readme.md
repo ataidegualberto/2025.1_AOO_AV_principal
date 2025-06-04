@@ -20,9 +20,9 @@ Principais módulos/funções definidos para o projeto:
 
 ## 🛠️ Tecnologias e Ferramentas
 
-- lucidchart.com
-- staruml.io
-- plantuml.com
+- [LucidChart](https://www.lucidchart.com)
+- [StarUML](https://staruml.io/)
+- [PlantUML](https://plantuml.com/)
 
 ## 👥 Integrantes
 - Stanly Almeida do Carmo
