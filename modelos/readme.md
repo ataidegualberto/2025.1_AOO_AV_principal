@@ -10,26 +10,26 @@
 
 | Nome                   | Ator    | Descrição breve                        | Observações |
 | ---------------------- | ------- | -------------------------------------- | ----------- |
-| Fazer Login            | Jogador | Permite o acesso ao sistema            | -           |
-| Fazer Cadastro         | Jogador | Permite primeiro acesso ao sistemas    | C2          |
-| Editar Perfil          | Jogador | Permite inserir informações no sistema | C3          |
+| Fazer Login            | Jogador | Permite acesso ao sistema              | -           |
+| Fazer Cadastro         | Jogador | Permite acesso ao sistemas             | -           |
+| Editar Perfil          | Jogador | Permite inserir informações no sistema | -           |
 | Buscar Jogadores       | Jogador | Permite integração entre usuários      | -           |
 | Visualizar Perfil      | Jogador | Permite obter informações de usuários  | -           |
-| Verificar Login        | Sistema | B2                                     | C2          |
-| Cadastrar Jogos        | Jogador | B3                                     | C3          |
-| Cadastrar Estilos      | Jogador | B4                                     | -           |
-| Cadastrar Horários     | Jogador | B2                                     | C2          |
-| Cadastrar Plataformas  | Jogador | B3                                     | C3          |
-| Filtrar por Plataforma | Jogador | B1                                     | -           |
-| Filtrar por Região     | Jogador | B2                                     | C2          |
-| Filtrar por Jogos      | Jogador | B3                                     | C3          |
-| Enviar Convites        | Jogador | B3                                     | C3          |
-| Conversar com Jogadores| Jogador | B3                                     | C3          |
-| Avaliar Jogadores      | Jogador | B3                                     | C3          |
-| Bloquear Jogadores     | Jogador | B3                                     | C3          |
-| Sugerir Jogadores      | Sistema | B3                                     | C3          |
-| Gerenciar Chat         | Sistema | B3                                     | C3          |
-| Eviar Notificações     | Sistema | B3                                     | C3          |
+| Verificar Login        | Sistema | Permite validar o acesso ao sistema    | -           |
+| Cadastrar Jogos        | Jogador | Permite listar preferências            | -           |
+| Cadastrar Estilos      | Jogador | Permite listar preferências            | -           |
+| Cadastrar Horários     | Jogador | Permite listar preferências            | -           |
+| Cadastrar Plataformas  | Jogador | Permite listar preferências            | -           |
+| Filtrar por Plataforma | Jogador | Permite selecionar preferências        | -           |
+| Filtrar por Região     | Jogador | Permite selecionar preferências        | -           |
+| Filtrar por Jogos      | Jogador | Permite selecionar preferências        | -           |
+| Enviar Convites        | Jogador | Permite comunicação entre usuários     | -           |
+| Conversar com Jogadores| Jogador | Permite comunicação entre usuários     | -           |
+| Avaliar Jogadores      | Jogador | Permite rankear usuários               | -           |
+| Bloquear Jogadores     | Jogador | Permite gerenciar preferências         | -           |
+| Sugerir Jogadores      | Sistema | Permite integração entre usuários      | -           |
+| Gerenciar Chat         | Sistema | Permite boa experiência ao usuário     | -           |
+| Eviar Notificações     | Sistema | Permite integração entre usuários      | -           |
 
 ## 🔹 Diagrama de Classes
 
