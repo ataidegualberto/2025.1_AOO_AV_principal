@@ -2,12 +2,11 @@
 
 > Visão Geral
 
-## 🔹 Diagrama de Casos de Uso
-
-:white_circle: [DIAGRAMA DE CASOS DE USO (PNG)](./DiagramaCasodeUso/Diagrama%20Caso%20de%20Uso.png)
+## 🔹 [DIAGRAMA DE CASOS DE USO (PNG)](./DiagramaCasodeUso/Diagrama%20Caso%20de%20Uso.png)
 
 > Ferramenta: LucidChart
 
+<br>
 
 | Nome                   | Ator    | Descrição breve                        |
 | ---------------------- | ------- | -------------------------------------- |
@@ -38,6 +37,8 @@
 
 > Ferramenta: LucidChart
 
+<br>
+
 | Nome                                                                         | Obs                               |
 | ---------------------------------------------------------------------------- | --------------------------------- |
 | [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogadores.png)   | Filtro, Sugestões e Notificações  |
@@ -52,6 +53,8 @@
 
 > BREVE DESCRIÇÃO/LEGENDA
 
+<br>
+
 [ADICIONAR IMAGEM OU CODIGO (EXEMPLO)]([./DiagramaCasodeUso/Diagrama%20Caso%20de%20Uso.png)
 
 ## 🔹 Diagrama de Estados
@@ -59,6 +62,8 @@
 ### TITULO DO DIAGRAMA
 
 > Mostra os estados possíveis de cada entidade [ex: login] e as transições entre eles.
+
+<br>
 
 | Nome                            | Finalidade / Obs  |
 | ------------------------------- | ----------------- |
