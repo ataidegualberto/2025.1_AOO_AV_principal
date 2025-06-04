@@ -14,7 +14,7 @@ Principais módulos/funções definidos para o projeto:
 ## 📁 Estrutura dos Arquivos
 - [Descricao](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
 - [Requisitos](requisitos.md): Lista de requisitos funcionais e não funcionais.
-- [Modelos/](./modelos/readme.md): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
+- [Modelos](./modelos/readme.md): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
 - [Autoavaliacao](./descricao/autoavaliacao.md): Reflexão individual ou do grupo sobre o projeto.
 - [Requisitos](./requisitos.md): Detalhe dos requisitos dos sistema.
 
