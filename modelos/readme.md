@@ -35,7 +35,7 @@
 
 <br>
 
-## 🔹 Diagrama de Atividade
+## 🔹 [DIAGRAMA DE ATIVIDADE](./DiagramaDeAtividade)
 
 ### Fluxo de Ações
 
@@ -54,7 +54,7 @@
 
 <br>
 
-## 🔹 Diagrama de Classes
+## 🔹 [DIAGRAMA DE CLASSES](./DiagramaDeClasses)
 
 ### Módulo de Usuário
 
@@ -66,7 +66,7 @@
 
 <br>
 
-## 🔹 Diagrama de Estados
+## 🔹 [DIAGRAMA DE ESTADOS](./DiagramaDeEstados)
 
 ### TITULO DO DIAGRAMA
 
