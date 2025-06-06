@@ -1,4 +1,4 @@
-# Descrição dos Casos de Uso
+## 🔹 [DIAGRAMA DE CASOS DE USO](./DiagramaCasodeUso/Diagrama%20Caso%20de%20Uso.png)
 
 > Descrição dos principais casos de uso do sistema, seus requisitos e regras de negócio.
 
