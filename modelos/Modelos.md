@@ -60,7 +60,7 @@
 
 > Ferramenta: StarUML
 
-> ### [Descrição das Classes]([./ClassesDescricao.md)
+> ### [Descrição das Classes](./ClassesDescricao.md)
 
 | Classes                | Métodos (Exemplos)                              |
 | ---------------------- | ----------------------------------------------- |
@@ -91,7 +91,7 @@
 
 > Ferramenta: LucidChart
 
-> ### [Descrição dos Estados]([./EstadosDescricao.md)
+> ### [Descrição dos Estados](./EstadosDescricao.md)
 
 | Estados                                                             | Transições                                           |
 | ------------------------------------------------------------------- | ---------------------------------------------------- |
