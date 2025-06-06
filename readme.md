@@ -14,7 +14,7 @@ Principais módulos/funções definidos para o projeto:
 ## 📁 Estrutura dos Arquivos
 - [Descricao](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
 - [Requisitos](requisitos.md): Lista de requisitos funcionais e não funcionais.
-- [Modelos](./modelos/readme.md): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
+- [Modelos](./modelos/Modelos.md): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
 - [Detalhes](./modelos/CasosUsoDescricao.md): Detalhe dos requisitos dos sistema.
 - [Autoavaliacao](./descricao/autoavaliacao.md): Reflexão individual ou do grupo sobre o projeto.
 
@@ -30,4 +30,4 @@ Principais módulos/funções definidos para o projeto:
 - :octocat: [Jadson Alves do Nascimento](https://github.com/JadsonGitHub)
 - :octocat: [José Anderson de Almeida Silva](https://github.com/andersonsillva1/)
 - :octocat: [Rafael Chaves de Góis](https://github.com/RafaelRTXrv297)
-- 
+- :octocat: 
