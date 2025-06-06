@@ -45,7 +45,7 @@
 
 | Nome                                                                            | Obs                               |
 | ----------------------------------------------------------------------------    | --------------------------------- |
-| [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogadores.png)      | Filtro, Sugestões e Notificações  |
+| [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogador.png)        | Filtro, Sugestões e Notificações  |
 | [Editar Perfil](./DiagramaDeAtividade/DiagramaDeATVeditarPerfil.png)            | Preferências                      |
 | [Acessar](./DiagramaDeAtividade/DiagramaDeATVloginCadastro.png)                 | Cadastro, Login                   |
 | [Enviar Mensagem](./DiagramaDeAtividade/DiagramaDeATVenviarMensagem.png)        | Chat                              |
