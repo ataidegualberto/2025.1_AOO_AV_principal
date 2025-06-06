@@ -16,7 +16,9 @@ _Exemplo de resposta: Cada membro ficou responsável por um tipo de diagrama, co
 > Aqui cada usuário deverá realizar sua descrição e realizar o envio com o seu nome para ficar registrado no github
 
 - Nome 1: José Anderson de Almeida Silva, A minha principal contribuição foi a elaboração do diagrama de caso de uso inicial do sistema, com base nos requisitos funcionais, não funcionais e regras de negócio, previamente definidos pelo grupo em conjunto. Esse diagrama foi essencial para representar visualmente as funcionalidades do sistema e a interação dos usuários com ele, servindo como guia para as próximas etapas do desenvolvimento.
-- Nome 2: 
+  
+- Nome 2: Stanly almeida do carmo, Minha maior contribuição foi em relação ao diagrama de atividade o qual fiquei responsavel, feito por meio do diagrama de caso de uso e os requisitos, Além disso, desenvolvi um modelo preliminar de caso de uso que serviu como base para a versão final validada pelo grupo e acompanhamento no desenvolvimento dos diagramas de classe e estado.
+  
 - Nome 3: 
 - Nome 4: 
 
