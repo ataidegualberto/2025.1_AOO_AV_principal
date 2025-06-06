@@ -2,11 +2,13 @@
 
 > Visão Geral
 
+<br>
+
 ## 🔹 [DIAGRAMA DE CASOS DE USO (PNG)](./DiagramaCasodeUso/Diagrama%20Caso%20de%20Uso.png)
 
 > Ferramenta: LucidChart
 
-<br>
+> ### [Detalhamento dos Casos de Uso](./modelos/CasosUsoDescricao.md)
 
 | Nome                   | Ator    | Descrição breve                        |
 | ---------------------- | ------- | -------------------------------------- |
@@ -31,6 +33,8 @@
 | Gerenciar Chat         | Sistema | Permite boa experiência ao usuário     |
 | Eviar Notificações     | Sistema | Permite integração entre usuários      |
 
+<br>
+
 ## 🔹 Diagrama de Atividade
 
 ### Fluxo de Ações
@@ -47,6 +51,8 @@
 | [Enviar Mensagem](./DiagramaDeAtividade/DiagramaDeATVmensagem.png)           | Chat, Notificação                 |
 | [Vizualizar Perfil](./DiagramaDeAtividade/DiagramaDeATVvisualizarPerfil.png) | Vizualização, Bloqueio, Avaliação |
 
+<br>
+
 ## 🔹 Diagrama de Classes
 
 ### Módulo de Usuário
@@ -56,6 +62,8 @@
 <br>
 
 [ADICIONAR IMAGEM OU CODIGO (EXEMPLO)]([./DiagramaCasodeUso/Diagrama%20Caso%20de%20Uso.png)
+
+<br>
 
 ## 🔹 Diagrama de Estados
 
