@@ -62,9 +62,9 @@
 
 > ### [Descrição das Classes]([./ClassesDescricao.md)
 
-| Nome                                                                            | Obs                               |
+| Classes                                                                         | Métoodos                          |
 | ----------------------------------------------------------------------------    | --------------------------------- |
-| [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogador.png)        | Filtro, Sugestões e Notificações  |
+| [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogador.png)        | Cadastro, Login, Logout           |
 | [Editar Perfil](./DiagramaDeAtividade/DiagramaDeATVeditarPerfil.png)            | Preferências                      |
 | [Acessar](./DiagramaDeAtividade/DiagramaDeATVloginCadastro.png)                 | Cadastro, Login                   |
 | [Enviar Mensagem](./DiagramaDeAtividade/DiagramaDeATVenviarMensagem.png)        | Chat                              |
@@ -77,13 +77,13 @@
 
 ### Possíveis Estados e suas Respectivas Transições
 
-> MFerramentas: StarUML, PlantUML e Pladitor
+> Ferramenta: LucidChart
+
+| Estados                                                             | Transições                                           |
+| ------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Acesso ao Sistema](./DiagramaDeEstados/Acesso%20ao%20Sistema.png)  | Filtro, Sugestão e Notificação                       |
+| [Buscar Jogadores](./DiagramaDeEstados/Buscar%20Jogadores.png)      | Filtro, Sugestão, Vizualização, Convite, Notificação |
+| [Enviar Mensagem](./DiagramaDeEstados/Enviar%20Mensagem.png)        | Mensagem, Notificação                                |
+| [Vizualizar Perfil](./DiagramaDeEstados/Visualizar%20Perfil.png)    | Vizualização, Funções                                |
 
 <br>
-
-| Nome                            | Finalidade / Obs  |
-| ------------------------------- | ----------------- |
-| [Status Usuário](./DE_login.md) | Status do usuário |
-| A2                              | B2                |
-| A3                              | B3                |
-
