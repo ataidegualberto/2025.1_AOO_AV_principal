@@ -8,7 +8,7 @@
 
 > Ferramenta: LucidChart
 
-> ### [Detalhamento dos Casos de Uso](./CasosUsoDescricao.md)
+> ### [Detalhamento dos Casos de Uso](./DiagramaCasodeUso/CasosUsoDescricao.md)
 
 | Nome                   | Ator    | Descrição breve                        |
 | ---------------------- | ------- | -------------------------------------- |
@@ -41,7 +41,7 @@
 
 > Ferramenta: LucidChart
 
-> ### [Detalhamento das Ações](./modelos/AtividadesDescricao.md)
+> ### [Detalhamento das Ações](./DiagramaDeAtividade/AtividadesDescricao.md)
 
 | Nome                                                                            | Obs                               |
 | ----------------------------------------------------------------------------    | --------------------------------- |
@@ -60,7 +60,7 @@
 
 > Ferramenta: StarUML
 
-> ### [Descrição das Classes](./ClassesDescricao.md)
+> ### [Descrição das Classes](./DiagramaDeClasse/ClassesDescricao.md)
 
 | Classes                | Métodos (Exemplos)                              |
 | ---------------------- | ----------------------------------------------- |
@@ -91,7 +91,7 @@
 
 > Ferramenta: LucidChart
 
-> ### [Descrição dos Estados](./EstadosDescricao.md)
+> ### [Descrição dos Estados](./DiagramaDeEstados/EstadosDescricao.md)
 
 | Estados                                                             | Transições                                           |
 | ------------------------------------------------------------------- | ---------------------------------------------------- |
