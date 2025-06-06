@@ -1,7 +1,5 @@
 ## 🔹 [Descrição dos Diagramas de Atividade](./DiagramaDeAtividade)
 
-> Descrição dos principais casos de uso do sistema, seus requisitos e regras de negócio.
-<br>
 
 ## DA01 – Acesso ao Sistema
 
