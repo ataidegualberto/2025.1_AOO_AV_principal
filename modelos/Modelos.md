@@ -8,7 +8,7 @@
 
 > Ferramenta: LucidChart
 
-> ### [Detalhamento dos Casos de Uso](./modelos/CasosUsoDescricao.md)
+> ### [Detalhamento dos Casos de Uso](./CasosUsoDescricao.md)
 
 | Nome                   | Ator    | Descrição breve                        |
 | ---------------------- | ------- | -------------------------------------- |
