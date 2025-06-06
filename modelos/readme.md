@@ -54,7 +54,7 @@
 
 <br>
 
-## 🔹 [DIAGRAMA DE CLASSES](./DiagramaDeClasses)
+## 🔹 [DIAGRAMA DE CLASSE](./DiagramaDeClasses)
 
 ### Módulo de Usuário
 
