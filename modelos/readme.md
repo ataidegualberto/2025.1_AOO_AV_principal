@@ -43,13 +43,14 @@
 
 <br>
 
-| Nome                                                                         | Obs                               |
-| ---------------------------------------------------------------------------- | --------------------------------- |
-| [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogadores.png)   | Filtro, Sugestões e Notificações  |
-| [Editar Perfil](./DiagramaDeAtividade/DiagramaDeATVeditarPerfil.png)         | Preferências                      |
-| [Acessar](./DiagramaDeAtividade/DiagramaDeATVloginCadastro.png)              | Cadastro, Login                   |
-| [Enviar Mensagem](./DiagramaDeAtividade/DiagramaDeATVmensagem.png)           | Chat, Notificação                 |
-| [Vizualizar Perfil](./DiagramaDeAtividade/DiagramaDeATVvisualizarPerfil.png) | Vizualização, Bloqueio, Avaliação |
+| Nome                                                                            | Obs                               |
+| ----------------------------------------------------------------------------    | --------------------------------- |
+| [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogadores.png)      | Filtro, Sugestões e Notificações  |
+| [Editar Perfil](./DiagramaDeAtividade/DiagramaDeATVeditarPerfil.png)            | Preferências                      |
+| [Acessar](./DiagramaDeAtividade/DiagramaDeATVloginCadastro.png)                 | Cadastro, Login                   |
+| [Enviar Mensagem](./DiagramaDeAtividade/DiagramaDeATVenviarMensagem.png)        | Chat                              |
+| [Enviar Notificação](./DiagramaDeAtividade/DiagramaDeATVenviarNotificação.png)  | Notificação                       |
+| [Vizualizar Perfil](./DiagramaDeAtividade/DiagramaDeATVvisualizarPerfil.png)    | Vizualização, Bloqueio, Avaliação |
 
 <br>
 
