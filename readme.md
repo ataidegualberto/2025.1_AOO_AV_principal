@@ -16,7 +16,7 @@ Principais módulos/funções definidos para o projeto:
 - [Requisitos](requisitos.md): Lista de requisitos funcionais e não funcionais.
 - [Modelos](./modelos/readme.md): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
 - [Autoavaliacao](./descricao/autoavaliacao.md): Reflexão individual ou do grupo sobre o projeto.
-- [Requisitos](./requisitos.md): Detalhe dos requisitos dos sistema.
+- [Detalhes](./modelos/CasosUsoDescricao.md): Detalhe dos requisitos dos sistema.
 
 ## 🛠️ Tecnologias e Ferramentas
 
