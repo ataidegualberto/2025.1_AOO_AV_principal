@@ -62,14 +62,26 @@
 
 > ### [Descrição das Classes]([./ClassesDescricao.md)
 
-| Classes                                                                         | Métoodos                          |
-| ----------------------------------------------------------------------------    | --------------------------------- |
-| [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogador.png)        | Cadastro, Login, Logout           |
-| [Editar Perfil](./DiagramaDeAtividade/DiagramaDeATVeditarPerfil.png)            | Preferências                      |
-| [Acessar](./DiagramaDeAtividade/DiagramaDeATVloginCadastro.png)                 | Cadastro, Login                   |
-| [Enviar Mensagem](./DiagramaDeAtividade/DiagramaDeATVenviarMensagem.png)        | Chat                              |
-| [Enviar Notificação](./DiagramaDeAtividade/DiagramaDeATVenviarNotificação.png)  | Notificação                       |
-| [Vizualizar Perfil](./DiagramaDeAtividade/DiagramaDeATVvisualizarPerfil.png)    | Vizualização, Bloqueio, Avaliação |
+| Classes                | Métodos (Exemplos)                              |
+| ---------------------- | ----------------------------------------------- |
+| Usuário                | Login, Mudar Senha, Recuperar Senha             |
+| Jogador                | Editar Perfil, Buscar Meus Jogos                |
+| Sugestão               | Pontuação de Compatibilidade                    |
+| Chat                   | Adicionar Mensagem                              |
+| Mensagem               | Status de Leitura Para Jogador                  |
+| Avaliação              |                                                 |
+| Notificação            | Marcar Como Lida                                |
+| Convite                | Aceitar Convite, Recusar Convite                |
+| Serviço de Notificação | Enviar Notificação                              |
+| Serviço de Matchmaking | Gerar Sugestão Para                             |
+| Jogo                   | Obter Detalhes                                  |
+| Estilo de Jogo         |                                                 |
+| Serviço de Catalogo    | Listar Todos Jogos, Cadastrar Nova Plataforma   |
+| Plataforma             | Listar Jogos                                    |
+| Serviço de Usuário     | Cadastrar Usuário, Autenticar Usuário           |
+| Serviço de Jogador     | Atualizar Perfil Jogador                        |
+| Sistema                | Serviço Usuário, Serviço Jogador                |
+| Serviço de Moderação   | Bloquear Jogador Sistema                        |
 
 <br>
 
@@ -78,6 +90,8 @@
 ### Possíveis Estados e suas Respectivas Transições
 
 > Ferramenta: LucidChart
+
+> ### [Descrição dos Estados]([./EstadosDescricao.md)
 
 | Estados                                                             | Transições                                           |
 | ------------------------------------------------------------------- | ---------------------------------------------------- |
