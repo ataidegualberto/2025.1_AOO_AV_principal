@@ -23,10 +23,11 @@ Principais módulos/funções definidos para o projeto:
 - [LucidChart](https://www.lucidchart.com)
 - [StarUML](https://staruml.io/)
 - [PlantUML](https://plantuml.com/)
+- [Pladitor](https://plantumleditor.com)
 
 ## 👥 Integrantes
 - :octocat: [Stanly Almeida do Carmo](https://github.com/Stanly1BR/)
 - :octocat: [Jadson Alves do Nascimento](https://github.com/JadsonGitHub)
 - :octocat: [José Anderson de Almeida Silva](https://github.com/andersonsillva1/)
-- 
+- :octocat: [Rafael Chaves de Góis](https://github.com/RafaelRTXrv297)
 - 
