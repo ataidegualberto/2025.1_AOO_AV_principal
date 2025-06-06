@@ -70,3 +70,5 @@ _O trabalho ficou bem organizado e completo. Conseguimos seguir o que foi planej
 Sugestão José Anderson: Dividir a entrega em etapas menores e avaliativas ajudaria a organizar melhor o tempo e evitar o acúmulo de tarefas no final.
 
 Sugestão Rafael: Sugerir um material de apoio que facilite a realização das atividades propostas.
+
+Sugestão Jadson: Como sugestão, implementar desde o início da disciplina as ideias a respeito do projeto, principalmente com a ambientação do GitHub, para que o projeto já comece seu desenvolvimento nos moldes da atividade, assim como uma aula básica (slides) dessa ferramenta. Mesmo fora da ementa seria de grande valia para nossa formação como profissionais.
