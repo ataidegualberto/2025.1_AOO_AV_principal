@@ -41,7 +41,7 @@
 
 > Ferramenta: LucidChart
 
-<br>
+> ### [Detalhamento das Ações](./modelos/AtividadesDescricao.md)
 
 | Nome                                                                            | Obs                               |
 | ----------------------------------------------------------------------------    | --------------------------------- |
@@ -54,23 +54,30 @@
 
 <br>
 
-## 🔹 [DIAGRAMA DE CLASSE](./DiagramaDeClasses)
+## 🔹 [DIAGRAMA DE CLASSE](./DiagramaDeClasse/DiagramaDeClasses.png)
 
-### Módulo de Usuário
+### Abstração das Entidades
 
-> BREVE DESCRIÇÃO/LEGENDA
+> Ferramenta: StarUML
 
-<br>
+> ### [Descrição das Classes]([./ClassesDescricao.md)
 
-[ADICIONAR IMAGEM OU CODIGO (EXEMPLO)]([./DiagramaCasodeUso/Diagrama%20Caso%20de%20Uso.png)
+| Nome                                                                            | Obs                               |
+| ----------------------------------------------------------------------------    | --------------------------------- |
+| [Buscar Jogadores](./DiagramaDeAtividade/DiagramaDeATVbuscarJogador.png)        | Filtro, Sugestões e Notificações  |
+| [Editar Perfil](./DiagramaDeAtividade/DiagramaDeATVeditarPerfil.png)            | Preferências                      |
+| [Acessar](./DiagramaDeAtividade/DiagramaDeATVloginCadastro.png)                 | Cadastro, Login                   |
+| [Enviar Mensagem](./DiagramaDeAtividade/DiagramaDeATVenviarMensagem.png)        | Chat                              |
+| [Enviar Notificação](./DiagramaDeAtividade/DiagramaDeATVenviarNotificação.png)  | Notificação                       |
+| [Vizualizar Perfil](./DiagramaDeAtividade/DiagramaDeATVvisualizarPerfil.png)    | Vizualização, Bloqueio, Avaliação |
 
 <br>
 
 ## 🔹 [DIAGRAMA DE ESTADOS](./DiagramaDeEstados)
 
-### TITULO DO DIAGRAMA
+### Possíveis Estados e suas Respectivas Transições
 
-> Mostra os estados possíveis de cada entidade [ex: login] e as transições entre eles.
+> MFerramentas: StarUML, PlantUML e Pladitor
 
 <br>
 
