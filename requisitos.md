@@ -3,10 +3,10 @@
 
 ## 🧑‍💼 Regras de Negócio (RN)
 
-2. Jogadores mal avaliados têm menor prioridade nas sugestões.
-3. Jogadores bloqueados não aparecem em buscas ou sugestões.
-4. Horário de disponibilidade definido manualmente ou automaticamente por login.
-5. Cada jogador pode selecionar seus estilos de jogos principais.
+1. Jogadores mal avaliados têm menor prioridade nas sugestões.
+2. Jogadores bloqueados não aparecem em buscas ou sugestões.
+3. Horário de disponibilidade definido manualmente ou automaticamente por login.
+4. Cada jogador pode selecionar seus estilos de jogos principais.
 
 ## ✅ Requisitos Funcionais (RF)
 1.  Cadastro de usuário.
