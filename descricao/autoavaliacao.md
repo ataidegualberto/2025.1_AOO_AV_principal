@@ -21,7 +21,7 @@ _O grupo se reuniu inicialmente para definir em conjunto a proposta da aplicaç�
   
 - Nome 3: Jadson Alves do Nascimento, minha principal contribuição foi auxiliar todos os componentes do grupo em suas tarefas, participei mais ativamente na criação do projeto, na elaboração das regras de negócio e requisitos, dos diagramas de casos de uso, diagramas de Atividade e ajustes e adequações realizadas no GitHub. Mesmo com a definição de tarefas a integrantes específicos, todos os membros estavam constantemente em contato para tomar as decisões no projeto, sendo que sempre estivemos presentes nas reuniôes.
   
-- Nome 4: 
+- Nome 4: Rafael Chaves de Góis, contribui, principalmente, com o desenvolvimento do diagrama de classe. Para desenvolvê-lo conferi os outros diagramas desenvolvidos por meus colegas, recebi ajuda deles também e, ainda, realizei consultas na Web. Já quanto estava quase concluído, tomei um livro de UML na Biblioteca para conferir os detalhes do meu desenvolvimento.
 
 - Nome 5:
 
