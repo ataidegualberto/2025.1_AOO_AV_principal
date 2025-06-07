@@ -23,7 +23,7 @@ _O grupo se reuniu inicialmente para definir em conjunto a proposta da aplicaç�
   
 - Nome 4: Rafael Chaves de Góis, contribui, principalmente, com o desenvolvimento do diagrama de classe. Para desenvolvê-lo conferi os outros diagramas desenvolvidos por meus colegas, recebi ajuda deles também e, ainda, realizei consultas na Web. Já quanto estava quase concluído, tomei um livro de UML na Biblioteca para conferir os detalhes do meu desenvolvimento.
 
-- Nome 5:
+- Nome 5: Luiz Gustavo Gomes Leal Fagundes, minha grande contribuição foi com o Diagrama de Estados, para produzir utilizei os demais diagramas e principalmente o de atividade, durante o desenvolvimento dos diagramas o grupo foi capaz de ir realizando alguns ajustes para deixar o trabalho mais coerente.
 
 ---
 
