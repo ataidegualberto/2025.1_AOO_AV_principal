@@ -1,216 +1,261 @@
-Documentação do Diagrama de Classes - Sistema de Matchmaking e Jogos
+# 📘 Documentação do Diagrama de Classes - Sistema de Matchmaking e Jogos
 
-🧍‍♂️ Classe Usuario
-Atributos:
+---
 
-nome: String
-email: String
-dataNasc: LocalDate
-senha: String
-Métodos:
+## 🧍‍♂️ Classe `Usuario`
 
-login(email: String, senha: String): boolean
-modificarSenha(senhaAtual: String, novaSenha: String): boolean
-recuperarSenha(email: String): void
-Relacionamentos:
+**Atributos:**
+- `nome: String`
+- `email: String`
+- `dataNasc: LocalDate`
+- `senha: String`
 
-Herança: Jogador herda de Usuário
-Associado à ServicoDeUsuario (Dependência)
-🧑‍💻 Classe Jogador
-Atributos:
+**Métodos:**
+- `login(email: String, senha: String): boolean`
+- `modificarSenha(senhaAtual: String, novaSenha: String): boolean`
+- `recuperarSenha(email: String): void`
 
-nickname: String
-statusPresenca: String
-horariosDisponiveis: List
-isBloqueadoSistema: boolean
-Métodos: -editarPerfil(dadosAtualizacao: Map): void
+**Relacionamentos:**
+- Herança: `Jogador` herda de `Usuario`
+- Associado à `ServicoDeUsuario` (dependência)
 
-buscarMeusJogos(filtro: String): List
-iniciarConversa(outroJogador: Jogador): Chat
-enviarConvite(destino: Jogador, jogo: Jogo, texto: String, chat: Chat): Convite
-receberSugestao(servicoMatchmaking: ServicoDeMatchmaking): List
-adicionarJogoAoPerfil(j: Jogo): void
-removerJogoDoPerfil(j: Jogo): void
-definirEstilosDeJogo(estilos: List): void
-atualizarHorarios(novosHorarios: List): void
-registrarLoginParaHorarioAutomatico(): void
-receberNotificacao(notificacao: Notificacao): void
-bloquearJogador(jogadorParaBloquear: Jogador): void
-desbloquearJogador(jogadorParaDesbloquear: Jogador): void
-Relacionamentos:
+---
 
-Envia/recebe Convites, Notificações, Avaliações e Mensagens
-Participa de Chats
-Associado ao ServicoDeMatchmaking
-💬 Classe Chat
-Atributos:
+## 🧑‍💻 Classe `Jogador`
 
-idChat: String
-dataCriacao: LocalDateTime
-ultimaAtividade: LocalDateTime
-Relacionamentos:
+**Atributos:**
+- `nickname: String`
+- `statusPresenca: String`
+- `horariosDisponiveis: List`
+- `isBloqueadoSistema: boolean`
 
-Contém múltiplas Mensagem
-2 Jogadores participam no mínimo
-Métodos:
+**Métodos:**
+- `editarPerfil(dadosAtualizacao: Map): void`
+- `buscarMeusJogos(filtro: String): List`
+- `iniciarConversa(outroJogador: Jogador): Chat`
+- `enviarConvite(destino: Jogador, jogo: Jogo, texto: String, chat: Chat): Convite`
+- `receberSugestao(servicoMatchmaking: ServicoDeMatchmaking): List`
+- `adicionarJogoAoPerfil(j: Jogo): void`
+- `removerJogoDoPerfil(j: Jogo): void`
+- `definirEstilosDeJogo(estilos: List): void`
+- `atualizarHorarios(novosHorarios: List): void`
+- `registrarLoginParaHorarioAutomatico(): void`
+- `receberNotificacao(notificacao: Notificacao): void`
+- `bloquearJogador(jogadorParaBloquear: Jogador): void`
+- `desbloquearJogador(jogadorParaDesbloquear: Jogador): void`
 
-adicionarMensagem(mg: Mensagem, servico: ServicoDeNotificacao): void
-carregarHistoricoMensagem(quant: int, offset: int): List
-verificarInteracaoEntreJogadores(A: Jogador, B: Jogador): boolean
-✉️ Classe Mensagem
-Atributos:
+**Relacionamentos:**
+- Envia/recebe `Convites`, `Notificações`, `Avaliações`, `Mensagens`
+- Participa de `Chats`
+- Associado ao `ServicoDeMatchmaking`
 
-idMensagem: String
-conteudo: String
-momentoEnvio: LocalDateTime
-statusLeitura: Map
-Métodos:
+---
 
-marcarComoLida(j: Jogador): void
-statusLeituraParaJogador(j: Jogador): boolean
-🤝 Classe Convite
-Atributos:
+## 💬 Classe `Chat`
 
-conteudo: String
-statusConvite: String
-dataHoraEnvio: LocalDateTime
-dataHoraExpiracao: LocalDateTime
-Métodos:
+**Atributos:**
+- `idChat: String`
+- `dataCriacao: LocalDateTime`
+- `ultimaAtividade: LocalDateTime`
 
-aceitarConvite(servicoNotificacao: ServicoDeNotificacao): void
-recusarConvite(servicoNotificacao: ServicoDeNotificacao): void
-📩 Classe Notificacao
-Atributos:
+**Métodos:**
+- `adicionarMensagem(mg: Mensagem, servico: ServicoDeNotificacao): void`
+- `carregarHistoricoMensagem(quant: int, offset: int): List`
+- `verificarInteracaoEntreJogadores(A: Jogador, B: Jogador): boolean`
 
-idNotificacao: String
-tipoNotificacao: String
-titulo: String
-mensagemCurta: String
-dataHoraCriacao: LocalDateTime
-Lida: boolean
-Métodos:
+**Relacionamentos:**
+- Contém múltiplas `Mensagem`
+- Mínimo 2 `Jogadores` participantes
 
-marcarComoLida(): void
-🌟 Classe Sugestao
-Atributos:
+---
 
-pontuacaoCompatibilidade: Double
-criteriosRelevantes: Map
-dataGeracao: LocalDateTime
-Relacionamentos:
+## ✉️ Classe `Mensagem`
 
-Gerada por ServicoDeMatchmaking
-🌟 Classe Avaliacao
-Atributos:
+**Atributos:**
+- `idMensagem: String`
+- `conteudo: String`
+- `momentoEnvio: LocalDateTime`
+- `statusLeitura: Map`
 
-nota: int
-comentario: String
-dataHoraAvaliacao: LocalDateTime
-Relacionamentos:
+**Métodos:**
+- `marcarComoLida(j: Jogador): void`
+- `statusLeituraParaJogador(j: Jogador): boolean`
 
-Enviada de um Jogador para outro
-⚙️ Classe ServicoDeMatchmaking
-Responsabilidades:
+---
 
-Gerar sugestões de partidas entre jogadores
-Métodos:
+## 🤝 Classe `Convite`
 
-gerarSugestoesPara(j: Jogador, filtros: Map): List
+**Atributos:**
+- `conteudo: String`
+- `statusConvite: String`
+- `dataHoraEnvio: LocalDateTime`
+- `dataHoraExpiracao: LocalDateTime`
 
-calcularPontosDeCompatibilidade(A: Jogador, B: Jogador): Double
+**Métodos:**
+- `aceitarConvite(servicoNotificacao: ServicoDeNotificacao): void`
+- `recusarConvite(servicoNotificacao: ServicoDeNotificacao): void`
 
-Relacionamentos:
+---
 
-Associada a Sistema e Jogador (dependência)
+## 📩 Classe `Notificacao`
 
-📤 Classe ServicoDeNotificacao
-Métodos:
+**Atributos:**
+- `idNotificacao: String`
+- `tipoNotificacao: String`
+- `titulo: String`
+- `mensagemCurta: String`
+- `dataHoraCriacao: LocalDateTime`
+- `Lida: boolean`
 
-enviarNotificacao(messagem: Notificacao): void
-criarNotificaoNovaMensagem(c: Chat, m: Messagem, j: Jogador): Notificacao
-Relacionamentos:
+**Métodos:**
+- `marcarComoLida(): void`
 
-Associada a Sistema (dependência)
-⚙️ Classe ServicoDeUsuario
-Métodos:
+---
 
-cadastrarUsuario(dados: Map): Usuario
-autenticarUsuario(email: String, senha: String): Object
-solicitarRecuperacaoSenha(email: String): void
-Relacionamentos:
+## 🌟 Classe `Sugestao`
 
-Associada a Sistema e Usuario (dependência)
-👮‍♀️ Classe ServicoDeModeracao
-Métodos:
+**Atributos:**
+- `pontuacaoCompatibilidade: Double`
+- `criteriosRelevantes: Map`
+- `dataGeracao: LocalDateTime`
 
-bloquearJogadorSistema(nick: String, motivo: String, adminResponsavel: Usuario): boolean
+**Relacionamentos:**
+- Gerada por `ServicoDeMatchmaking`
 
-desbloquearJogadorSistema(nick: String, adminResponsavel: Usuario): boolean
+---
 
-Relacionamentos:
+## 🌟 Classe `Avaliacao`
 
-Associada a Sistema e Jogador (dependência)
+**Atributos:**
+- `nota: int`
+- `comentario: String`
+- `dataHoraAvaliacao: LocalDateTime`
 
-🎮 Classe Jogo
-Atributos:
+**Relacionamentos:**
+- Enviada de um `Jogador` para outro
 
-nome: String
-descricao: String
-Métodos: -obterDetalhes(): String
+---
 
-Relacionamentos:
+## ⚙️ Classe `ServicoDeMatchmaking`
 
-Associada Plataforma (dependência)
-🎮 Classe EstiloDeJogo
-Atributos:
+**Responsabilidades:**
+- Gerar sugestões de partidas entre jogadores
 
-tipo: String
+**Métodos:**
+- `gerarSugestoesPara(j: Jogador, filtros: Map): List`
+- `calcularPontosDeCompatibilidade(A: Jogador, B: Jogador): Double`
 
-descricao: String
+**Relacionamentos:**
+- Associada ao `Sistema` e `Jogador` (dependência)
 
-Relacionamentos:
+---
 
-Associada Jogo (dependência)
+## 📤 Classe `ServicoDeNotificacao`
 
-🕹️ Classe Plataforma
-Atributos:
+**Métodos:**
+- `enviarNotificacao(mensagem: Notificacao): void`
+- `criarNotificaoNovaMensagem(c: Chat, m: Mensagem, j: Jogador): Notificacao`
 
-nome: String
-Métodos:
+**Relacionamentos:**
+- Associada ao `Sistema` (dependência)
 
-listarJogos(catalogo: ServicoDeCatalogo): List
-Relacionamentos:
+---
 
-Associada a múltiplos Jogos
-🗂️ Classe ServicoDeCatalogo
-Métodos:
+## ⚙️ Classe `ServicoDeUsuario`
 
-cadastrarNovaPlataforma(nome: String): Plataforma
-cadastrarNovoJogo(dadosJogo: Map): Jogo
-cadastrarNovoEstiloJogo(tipo: String, descricao: String): EstiloDeJogo
-listarTodosJogos(filtros: Map): List
-listarTodosEstilos(): List
-Relacionamentos:
+**Métodos:**
+- `cadastrarUsuario(dados: Map): Usuario`
+- `autenticarUsuario(email: String, senha: String): Object`
+- `solicitarRecuperacaoSenha(email: String): void`
 
-Associada a Sistema, Plataforma, Jogo e EstiloDeJogo
-🧠 Classe Sistema
-Atributos:
+**Relacionamentos:**
+- Associada ao `Sistema` e `Usuario` (dependência)
 
-servicoUsuario: ServicoDeUsuario
-servicoJogador: ServicoDeJogador
-servicoMatchmaking: ServicoDeMatchmaking
-servicoNotificacao: ServicoDeNotificacao
-servicoCatalogo: ServicoDeCatalogo
-servicoModeracao: ServicoDeModeracao
-Relacionamentos:
+---
 
-Associada a todas as classes de Serviço
-✅ Classe ServicoDoJogador
-Métodos:
+## 👮‍♀️ Classe `ServicoDeModeracao`
 
-atualizaPerfilJogador(nick: String, dadosPerfil: Map): Jogador
-obterPerfilPublico(nickname: String): Object
-Relacionamentos:
+**Métodos:**
+- `bloquearJogadorSistema(nick: String, motivo: String, adminResponsavel: Usuario): boolean`
+- `desbloquearJogadorSistema(nick: String, adminResponsavel: Usuario): boolean`
 
-Associada a Sistema e Jogador
+**Relacionamentos:**
+- Associada ao `Sistema` e `Jogador` (dependência)
 
+---
+
+## 🎮 Classe `Jogo`
+
+**Atributos:**
+- `nome: String`
+- `descricao: String`
+
+**Métodos:**
+- `obterDetalhes(): String`
+
+**Relacionamentos:**
+- Associada à `Plataforma` (dependência)
+
+---
+
+## 🎮 Classe `EstiloDeJogo`
+
+**Atributos:**
+- `tipo: String`
+- `descricao: String`
+
+**Relacionamentos:**
+- Associada ao `Jogo` (dependência)
+
+---
+
+## 🕹️ Classe `Plataforma`
+
+**Atributos:**
+- `nome: String`
+
+**Métodos:**
+- `listarJogos(catalogo: ServicoDeCatalogo): List`
+
+**Relacionamentos:**
+- Associada a múltiplos `Jogos`
+
+---
+
+## 🗂️ Classe `ServicoDeCatalogo`
+
+**Métodos:**
+- `cadastrarNovaPlataforma(nome: String): Plataforma`
+- `cadastrarNovoJogo(dadosJogo: Map): Jogo`
+- `cadastrarNovoEstiloJogo(tipo: String, descricao: String): EstiloDeJogo`
+- `listarTodosJogos(filtros: Map): List`
+- `listarTodosEstilos(): List`
+
+**Relacionamentos:**
+- Associada ao `Sistema`, `Plataforma`, `Jogo` e `EstiloDeJogo`
+
+---
+
+## 🧠 Classe `Sistema`
+
+**Atributos:**
+- `servicoUsuario: ServicoDeUsuario`
+- `servicoJogador: ServicoDeJogador`
+- `servicoMatchmaking: ServicoDeMatchmaking`
+- `servicoNotificacao: ServicoDeNotificacao`
+- `servicoCatalogo: ServicoDeCatalogo`
+- `servicoModeracao: ServicoDeModeracao`
+
+**Relacionamentos:**
+- Associada a todas as classes de Serviço
+
+---
+
+## ✅ Classe `ServicoDoJogador`
+
+**Métodos:**
+- `atualizaPerfilJogador(nick: String, dadosPerfil: Map): Jogador`
+- `obterPerfilPublico(nickname: String): Object`
+
+**Relacionamentos:**
+- Associada ao `Sistema` e `Jogador`
