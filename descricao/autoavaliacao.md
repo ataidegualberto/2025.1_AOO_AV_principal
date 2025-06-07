@@ -48,10 +48,14 @@ Jadson: Aprimorei significativamente minhas habilidades no GitHub e no MarkDown,
 
 Rafael Chaves: A funcionalidade de cada diagrama de modelagem de sistema, particularmente, o diagrama de classe e, também, como montar um diagrama no StarUML.
 
+Luiz Gustavo: O principal é o quão importante esse trabalho de elaborar os diagramas pode ser para facilitar e tornar eficiente o processo de desenvolvimento, principalmente quando feito em grandes equipes.
+
 **5. E pessoal (relacionado a trabalho em grupo, organização, etc)?**  
 José Anderson: No aspecto pessoal, o trabalho em grupo reforçou a importância da comunicação clara e constante entre os membros, Esse processo também melhorou minha habilidade de trabalhar em equipe, ouvir diferentes opiniões e gerir o tempo.
 
 Jadson: Foi uma experiência muito enriquecedora, pois mesmo de maneira acadêmica, pudemos simular o ambiente de produção e nos relacionarmos como colegas de trabalho e não de classe, vendo na prática a importância do trabalho em grupo e da disciplina necessária para conquista dos prazos estipulados.
+
+Luiz Gustavo: Tranquilo, seguimos o planejamento das aulas e conseguimos organizar as funções para cada participante durante as semanas.
 
 ---
 
