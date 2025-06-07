@@ -30,4 +30,4 @@ Principais módulos/funções definidos para o projeto:
 - :octocat: [Jadson Alves do Nascimento](https://github.com/JadsonGitHub)
 - :octocat: [José Anderson de Almeida Silva](https://github.com/andersonsillva1/)
 - :octocat: [Rafael Chaves de Góis](https://github.com/RafaelRTXrv297)
-- :octocat: 
+- :octocat: [LUIZ GUSTAVO GOMES LEAL FAGUNDES](https://github.com/LuizGomesL)
