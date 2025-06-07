@@ -46,6 +46,8 @@ José Anderson: O principal aprendizado técnico foi a compreensão prática de 
 
 Jadson: Aprimorei significativamente minhas habilidades no GitHub e no MarkDown, e adquiri um conhecimento mais aprofundado nos diagramas e documentações relacionadas ao Desenvolvimento ( uma vez que já cursei a disciplina Modelagem de Processos de Negócios ). Conheci ferramentas como o LucidChart, Git Bash e GH CLI, visto que passei a utilizar o VSCode e GitHub com mais propriedade pelos estudos para extensão do conhecimento necessário para o GitHub.
 
+Rafael Chaves: A funcionalidade de cada diagrama de modelagem de sistema, particularmente, o diagrama de classe e, também, como montar um diagrama no StarUML.
+
 **5. E pessoal (relacionado a trabalho em grupo, organização, etc)?**  
 José Anderson: No aspecto pessoal, o trabalho em grupo reforçou a importância da comunicação clara e constante entre os membros, Esse processo também melhorou minha habilidade de trabalhar em equipe, ouvir diferentes opiniões e gerir o tempo.
 
