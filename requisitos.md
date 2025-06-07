@@ -2,7 +2,7 @@
 
 
 ## 🧑‍💼 Regras de Negócio (RN)
-1. Convites só podem ser enviados após interação prévia via chat.
+
 2. Jogadores mal avaliados têm menor prioridade nas sugestões.
 3. Jogadores bloqueados não aparecem em buscas ou sugestões.
 4. Horário de disponibilidade definido manualmente ou automaticamente por login.
