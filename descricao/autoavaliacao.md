@@ -50,12 +50,17 @@ Rafael Chaves: A funcionalidade de cada diagrama de modelagem de sistema, partic
 
 Luiz Gustavo: O principal é o quão importante esse trabalho de elaborar os diagramas pode ser para facilitar e tornar eficiente o processo de desenvolvimento, principalmente quando feito em grandes equipes.
 
+Stanly: Durante este trabalho, meu principal aprendizado técnico foi entender, na prática, como os diagramas (de casos de uso, classes e atividades) não são apenas exigências teóricas, mas ferramentas fundamentais para planejar e comunicar a estrutura de um sistema de forma clara. Também aprendi a utilizar melhor ferramentas como o StarUML.
+
 **5. E pessoal (relacionado a trabalho em grupo, organização, etc)?**  
 José Anderson: No aspecto pessoal, o trabalho em grupo reforçou a importância da comunicação clara e constante entre os membros, Esse processo também melhorou minha habilidade de trabalhar em equipe, ouvir diferentes opiniões e gerir o tempo.
 
 Jadson: Foi uma experiência muito enriquecedora, pois mesmo de maneira acadêmica, pudemos simular o ambiente de produção e nos relacionarmos como colegas de trabalho e não de classe, vendo na prática a importância do trabalho em grupo e da disciplina necessária para conquista dos prazos estipulados.
 
 Luiz Gustavo: Tranquilo, seguimos o planejamento das aulas e conseguimos organizar as funções para cada participante durante as semanas.
+
+Stanly: No lado pessoal, percebi o quanto a colaboração e a divisão de tarefas são essenciais para que o grupo avance com eficiência. Trabalhar em equipe me ensinou a respeitar o tempo e o ritmo dos outros, ouvir diferentes pontos de vista e adaptar a minha organização pessoal para atender aos prazos coletivos. A experiência me mostrou que, mesmo com agendas diferentes, é possível alcançar um bom resultado quando há comunicação e compromisso.
+
 
 ---
 
@@ -78,3 +83,5 @@ Sugestão José Anderson: Dividir a entrega em etapas menores e avaliativas ajud
 Sugestão Rafael: Sugerir um material de apoio que facilite a realização das atividades propostas.
 
 Sugestão Jadson: Como sugestão, implementar desde o início da disciplina as ideias a respeito do projeto, principalmente com a ambientação do GitHub, para que o projeto já comece seu desenvolvimento nos moldes da atividade, assim como uma aula básica (slides) dessa ferramenta. Mesmo fora da ementa seria de grande valia para nossa formação como profissionais.
+
+Sugestão stanly; Seria interessante que a atividade fosse dividida em entregas parciais ao longo das aulas, com pequenos feedbacks em cada etapa. Isso ajudaria não só na organização do grupo, mas também permitiria corrigir eventuais erros antes da entrega final.
