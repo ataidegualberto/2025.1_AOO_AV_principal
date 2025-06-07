@@ -1,4 +1,4 @@
-# 📘 Documentação do Diagrama de Classes - Sistema de Matchmaking e Jogos
+# 📘 Detalhamento das Classes
 
 ---
 
