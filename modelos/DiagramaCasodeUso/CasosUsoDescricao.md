@@ -58,9 +58,6 @@ Permitir que um jogador convide outro para amizade e futuras partidas.
 **Requisitos Não Funcionais:**  
 - **RNF03** – Notificação em tempo real
 
-**Regras de Negócio:**  
-- **RN01** – Deve haver interação anterior via chat
-
 **Pré-condição:**  
 - Interação prévia via chat entre os jogadores.
 
@@ -76,9 +73,6 @@ Permitir que um jogador convide outro para amizade e futuras partidas.
 **Extensões:**  
 - **CSU02.1** – Aceitar convite  
 - **CSU02.2** – Notificações em tempo real
-
-**Fluxo de Exceção (FE01):**  
-- Caso não haja interação anterior, exibe: _"É necessário conversar antes de enviar convite."_
 
 <br>
 
