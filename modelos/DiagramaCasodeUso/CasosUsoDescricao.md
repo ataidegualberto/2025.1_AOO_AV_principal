@@ -74,6 +74,8 @@ Permitir que um jogador convide outro para amizade e futuras partidas.
 - **CSU02.1** – Aceitar convite  
 - **CSU02.2** – Notificações em tempo real
 
+  //As extensões “CSU02.1 – Aceitar convite” e “CSU02.2 – Notificações em tempo real” são citadas no CSU02 como extensões, mas na prática fazem parte de outro contexto (resposta ao convite e gerenciamento de notificação). Isso pode causar confusão conceitual sobre o escopo da funcionalidade original.
+
 <br>
 
 ## CSU03 – Avaliar Jogador
