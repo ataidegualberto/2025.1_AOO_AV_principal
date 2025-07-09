@@ -60,7 +60,8 @@ Permitir que um jogador convide outro para amizade e futuras partidas.
 
 **Pré-condição:**  
 - Interação prévia via chat entre os jogadores.
-
+  
+\\ Não informa no DA04 nem o DEM03 tratam ou verificam essa pré-condição antes de liberar a ação “Enviar Convite”.
 **Pós-condição:**  
 - Convite enviado e notificação gerada para o destinatário.
 
