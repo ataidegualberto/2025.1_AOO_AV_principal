@@ -79,31 +79,61 @@ Permitir que um jogador convide outro para amizade e futuras partidas.
 ## CSU03 – Avaliar Jogador
 
 **Finalidade:**  
-Permitir avaliação mútua dos jogadores após uma partida.
+Permitir avaliação mútua e estruturada dos jogadores após uma partida, garantindo que o sistema de reputação seja justo e impacte positivamente o matchmaking.
 
 **Atores:**  
 - Jogador
 
 **Requisitos Funcionais:**  
-- **RF06** – Avaliar jogador após partida
+- **RF06** – Apresentar opção de avaliação após a conclusão de uma partida  
+- **RF07** – Validar a elegibilidade da avaliação (apenas entre participantes da mesma partida)  
+- **RF08** – Registrar nota e comentário opcionais para a avaliação  
+- **RF09** – Permitir a edição da avaliação dentro de um prazo determinado  
 
 **Requisitos Não Funcionais:**  
-- **RNF04** – Interface de avaliação amigável
+- **RNF04** – Interface de avaliação clara, intuitiva e amigável  
+- **RNF05** – Integridade dos dados de avaliação, garantindo o vínculo entre avaliador, avaliado e a partida correspondente  
 
 **Regras de Negócio:**  
-- **RN02** – Avaliação afeta sugestões de matchmaking
+- **RN03** – Uma avaliação só pode ser submetida se existir um registro de partida concluída entre o avaliador e o avaliado  
+- **RN04** – Um jogador só pode avaliar outro uma única vez por partida  
+- **RN05** – A avaliação (nota e/ou comentário) impacta diretamente a pontuação de reputação do jogador, que é usada como critério no matchmaking (RN01)  
+- **RN06** – Uma avaliação pode ser editada pelo autor em até 24 horas após ser submetida  
 
 **Pré-condição:**  
-- Partida entre os dois jogadores deve ter sido concluída.
+- Uma partida entre os jogadores foi concluída e registrada no histórico do sistema.
 
 **Pós-condição:**  
-- Avaliação registrada e considerada em sugestões futuras.
+- Avaliação registrada e vinculada à partida específica  
+- A pontuação de reputação do jogador avaliado é recalculada e atualizada  
 
 **Fluxo Principal:**
-1. Sistema solicita avaliação após partida.
-2. Jogador fornece nota e/ou comentário.
-3. Sistema registra avaliação.
-4. Ranking do jogador é ajustado.
+1. Ao final de uma partida, o sistema notifica os jogadores sobre a disponibilidade da avaliação.
+2. O jogador acessa a tela de avaliação a partir da notificação ou do histórico da partida.
+3. O sistema valida a elegibilidade da avaliação, confirmando a participação de ambos na partida e a ausência de avaliação prévia.
+4. O jogador seleciona uma nota (ex: 1 a 5) e, opcionalmente, escreve um comentário.
+5. O jogador confirma o envio.
+6. O sistema valida os dados (nota dentro do intervalo válido).
+7. O sistema registra a avaliação, associando-a ao ID do avaliador, do avaliado e da partida.
+8. O sistema recalcula a pontuação de reputação do jogador avaliado e exibe uma mensagem de sucesso.
+
+**Fluxos Alternativos e de Exceção:**
+- **FA01 – Recusa de Avaliação:**  
+  Se o jogador ignorar a notificação ou fechar a tela, nenhuma avaliação é registrada. A opção permanecerá disponível no histórico da partida.  
+
+- **FE01 – Erro na Submissão:**  
+  Se ocorrer uma falha de conexão ou erro no servidor, o sistema exibe:  
+  *"Erro ao registrar sua avaliação. Por favor, tente novamente."*  
+  e preserva os dados inseridos.  
+
+- **FE02 – Tentativa de Avaliação Duplicada:**  
+  Se o jogador tentar avaliar o mesmo jogador pela mesma partida novamente, o sistema informa:  
+  *"Você já avaliou este jogador para esta partida."*  
+  e oferece a opção de editar a avaliação existente (se dentro do prazo da **RN06**).  
+
+- **FE03 – Edição de Avaliação:**  
+  O jogador localiza a avaliação em seu histórico, seleciona "Editar", modifica a nota/comentário e salva.  
+  O sistema atualiza o registro e recalcula a reputação do jogador avaliado.
 
 <br>
 
