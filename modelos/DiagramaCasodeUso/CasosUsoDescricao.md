@@ -41,6 +41,15 @@ Listar jogadores com maior compatibilidade com base em horários, estilos de jog
 **Fluxo Alternativo (FA01):**  
 - Se nenhum jogador for compatível, exibe: _"Nenhum jogador encontrado com esses critérios."_
 
+- •Análise:
+Ao analisar os artefatos, como o caso de uso CSU01, o diagrama de atividade DA03, o diagrama de estado DEM02 e as classes relacionadas, percebi alguns pontos que poderiam ser melhorados. Por exemplo, a pré-condição do caso de uso só fala que o jogador precisa estar logado e com o perfil preenchido, mas na prática o sistema depende de informações bem detalhadas, como estilos de jogo, horários e plataformas. Acho que isso poderia estar mais claro e o sistema deveria validar esses dados antes de permitir a busca.
+
+Outro ponto é que o fluxo alternativo só cobre o caso de nenhum jogador compatível ser encontrado, mas não tem nada sobre o que acontece se der erro no sistema, ou se os filtros forem preenchidos de forma errada. 
+
+•Sugestão: 
+Deixar a pré-condição mais explícita e funcional.  Além disso, os diagramas poderiam contemplar melhor os diferentes caminhos que o usuário pode seguir, como cancelar, corrigir filtros ou lidar com erros.
+
+
 <br>
 
 ## CSU02 – Enviar Convite
