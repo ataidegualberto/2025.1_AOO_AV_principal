@@ -154,7 +154,8 @@ Permitir avaliação mútua e estruturada dos jogadores após uma partida, garan
 Evitar interações com jogadores indesejados.
 
 **Atores:**  
-- Jogador
+- Jogador  
+- Administrador (para bloqueios/desbloqueios sistêmicos)
 
 **Requisitos Funcionais:**  
 - **RF07** – Bloquear jogador
@@ -173,6 +174,22 @@ Evitar interações com jogadores indesejados.
 2. Seleciona a opção "Bloquear jogador".
 3. Sistema solicita confirmação.
 4. Jogador é bloqueado e removido das buscas e contatos.
+
+**Fluxos Alternativos:**  
+- **FE01 – Cancelar bloqueio:**  
+  1. Após passo 3, Jogador A clica em “Cancelar”.  
+  2. Sistema aborta sem criar registro e retorna ao perfil.  
+- **FE02 – Erro ao registrar bloqueio:**  
+  1. Se falha de rede ou servidor no passo 5, exibe “Não foi possível bloquear. Tente novamente.” mantendo o motivo preenchido.  
+- **FE03 – Bloqueio administrativo:**  
+  1. Administrador invoca `bloquearJogadorSistema(B, motivo)`.  
+  2. Sistema cria `Relacionamento{Admin→B, tipo=bloqueio, motivo, dataInicio}`.  
+  3. Notifica B sobre bloqueio sistêmico.  
+
+**Extensões:**  
+- **CSU04.1 – Desbloquear Jogador**  
+  - Fluxo muito similar ao principal, mas atualiza `dataFim` e `ativo=false`.  
+  - Inclui confirmação “Tem certeza que deseja desbloquear?”  
 
 <br>
 
