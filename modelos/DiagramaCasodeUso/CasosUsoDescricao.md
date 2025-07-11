@@ -84,10 +84,6 @@ Permitir que um jogador convide outro para amizade e futuras partidas.
 - **CSU02.2** – Notificações em tempo real
 
 
-
-
-// Na parte da imagem do diagrama: A relação entre chat e convite é apenas descrita na pré-condição textual, mas não representada nos diagramas. Isso compromete a rastreabilidade entre requisitos e modelagem.
-
 <br>
 
 ## CSU03 – Avaliar Jogador
