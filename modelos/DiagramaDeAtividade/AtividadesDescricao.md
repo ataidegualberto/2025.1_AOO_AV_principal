@@ -81,6 +81,13 @@ Encontrar outros jogadores com base em filtros específicos ou através de suges
 - **RN02:** Jogadores mal avaliados têm menor prioridade nas sugestões.
 - **RN03:** Jogadores bloqueados não aparecem em buscas ou sugestões.
 
+•Análise:
+Durante a análise do DA03, junto com o caso de uso CSU01, o diagrama de estado DEM02 e as classes envolvidas (como ServicoDeMatchmaking e Sugestao), percebi que o processo está muito direto e simples, talvez até demais. O jogador basicamente aplica os filtros e o sistema já parte para a sugestão de perfis, sem prever situações mais realistas, como a pessoa querer refinar os filtros, cancelar a busca, ou até mesmo tentar de novo se não gostar dos resultados.
+
+Outra coisa que me chamou atenção é que o próprio jogador parece estar envolvido demais na execução da sugestão, quando isso deveria ser algo mais automático e feito pelo serviço. O papel do jogador deveria ser apenas o de iniciar a busca e receber o resultado. 
+•Sugestão: 
+O sistema poderia permitir que o jogador refinasse os filtros, cancelasse ou repetisse a busca com facilidade. Ademais, a forma como o método receberSugestao() está implementado na classe Jogador faz parecer que o próprio jogador está chamando e controlando o processo de sugestão, o que dá a ele uma responsabilidade que não deveria ter. O mais adequado seria que essa lógica ficasse totalmente no ServicoDeMatchmaking, que receberia os filtros, processaria os dados e, ao final, retornaria uma lista de sugestões já pronta para o jogador apenas visualizar. 
+
 ---
 
 ## DA04 – Visualizar Perfil
