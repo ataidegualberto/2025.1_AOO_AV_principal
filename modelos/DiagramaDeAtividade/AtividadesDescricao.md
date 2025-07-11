@@ -135,10 +135,21 @@ Permitir a comunicação textual entre jogadores, seja em um chat privado ou em 
 5.  Dentro da conversa, o jogador tem a opção de `Visualizar perfil?` do seu interlocutor.
 6.  Se optar por visualizar (```sim```), ele é direcionado para a atividade "Visualizar Perfil". Se não (```não```), o fluxo de mensagens é encerrado.
 
+**Fluxos Alternativos:**  
+- **FE01 – Remetente bloqueado:**  
+  - Após passo 4, se A bloqueou B ou vice‑versa, exibe _“Não é possível enviar mensagem.”_  
+- **FE02 – Permissão negada:**  
+  - Se B não aceita PMs de não amigos, em privado, exibe _“B não aceita mensagens privadas.”_  
+- **FE03 – Moderação de conteúdo:**  
+  - Em canal global, se texto viola filtro, rejeita envio e mostra _“Mensagem bloqueada pelo moderador.”_  
+
+**Extensões:**  
+- **CSU06.1 – Notificar “lida”**  
+  - Jogador B visualiza mensagem; sistema registra status “lida” e notifica A.
+
 **Requisitos Relacionados:**
 - **RF10:** Conversas entre jogadores.
 - **RF07:** Edição e visualização de perfil de jogador (como uma ação secundária).
-
 ---
 
 ## DA06 – Gerenciar Notificação
