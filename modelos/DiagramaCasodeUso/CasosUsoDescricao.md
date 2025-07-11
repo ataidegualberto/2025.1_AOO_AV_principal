@@ -40,6 +40,8 @@ Listar jogadores com maior compatibilidade com base em horários, estilos de jog
 
 **Fluxo Alternativo (FA01):**  
 - Se nenhum jogador for compatível, exibe: _"Nenhum jogador encontrado com esses critérios."_
+> Análise:
+A ausência do fluxo alternativo previsto no caso de uso compromete a completude do diagrama. As notificações de convite necessitam de detalhamento, especialmente quanto a bloqueios e validações. Além disso, o diagrama de estados poderia ser mais fluido, oferecendo mais opções de navegação e interação para o usuário.
 
 <br>
 
@@ -160,6 +162,8 @@ Permitir que o jogador informe seus horários disponíveis para jogar.
 2. Escolhe entre definir manualmente ou aceitar sugestão automática.
 3. Sistema salva os dados.
 4. Informações são utilizadas na busca por compatibilidade.
+> Análise:
+O principal ponto é a falta de uma melhor representação dessa função em um diagrama. Embora haja uma menção no DA02 – Editar Perfil, seria mais adequado criar um diagrama separado que destaque claramente a função de cadastro de horários e a forma como ele funciona, reforçando sua relevância como caso de uso próprio.
 
 <br>
 
