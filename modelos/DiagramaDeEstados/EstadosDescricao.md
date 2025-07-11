@@ -65,6 +65,8 @@ Modelar o comportamento e os estados de uma sessão de busca de jogadores.
 
 ## DEM03 – Visualizar Perfil
 
+// O diagrama apresenta um “Estado Composto Funcionalidades” com ações paralelas (avaliar, bloquear, etc.), mas trata como se apenas uma dessas ações pudesse ser executada por vez. Isso não representa corretamente a natureza da interface, que permite múltiplas interações dentro da tela de perfil.
+
 Este diagrama  ilustra as funcionalidades disponíveis quando um usuário está no estado de visualização de um perfil.
 
 **Finalidade:**
@@ -81,6 +83,10 @@ Modelar o estado de "visualização de perfil" como um estado que habilita um co
     - `Avaliar Jogador`
 - **Transição de Saída**: Após o usuário executar qualquer uma das funcionalidades, o sistema transita para o estado `Saindo do Perfil`.
 - **Estado `Saindo do Perfil`**: Um estado finalizador que representa a conclusão da interação com o perfil, levando ao término do fluxo.
+  
+//Após qualquer ação, o sistema transita para “Saindo do Perfil”. Isso reduz a fidelidade do modelo, pois o usuário pode simplesmente voltar sem fazer nenhuma ação, ou pode fazer várias. Essa rigidez no diagrama não reflete o comportamento real da interface
+
+
 
 **Requisitos Relacionados:**
 - **RF07:** Edição e visualização de perfil de jogador.
